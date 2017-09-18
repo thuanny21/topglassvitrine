@@ -1,0 +1,409 @@
+/* Estilos Gerais */
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+	font-family: Georgia, "Arial MT Black", serif;
+	font-size: 18px;
+	line-height: 20px;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+.btn {
+	border: 3px solid black;
+	padding: 10px 30px;
+	color: black;
+	font-size: 14px;
+	line-height: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: .1em;
+	transition: all .5s ease;
+	margin: 40px;
+	background: #6699ff;
+ 	border-color: white;
+ 	margin: 4px;
+
+
+}
+
+.btn:hover {
+	color: white;
+	border-color: white;
+}
+
+.btn .btn-preto:hover {
+	color: #fff;
+	border-color: #fff;
+}
+
+.subtitulo {
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: bold;
+	letter-spacing: .1em;
+	color: #6699ff;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.subtitulo:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #6699ff;
+	margin: 8px auto;
+}
+
+
+/* Menu */
+
+
+.navbar li{
+	color: #2980b9;
+	
+}
+
+.navbar li:hover{
+	color: #2980b9;
+	
+}
+
+
+.header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background: ; /* Fundo menu preto */
+	padding: 10px 0;
+	z-index: 10;
+
+}
+
+
+
+ .navbar img{ 
+  
+  margin: -5px 50px 50px 10px;
+  padding: 10px 0;
+
+
+}
+
+.collapse ul li a {
+	color: #2980b9;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-size: 15px;
+	line-height: 30px;
+	padding: 20px 0;
+	transition: all .3s ease;
+}
+
+.collapse ul li a:hover {
+	color: #2980b9;
+	
+}
+
+
+.navbar-header button{
+	color: #6699ff;
+}
+
+
+.collapse ul li {
+	
+	margin-left: 10px;
+	margin-top: 5px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+
+}
+
+
+
+
+
+/* Introdução */
+
+
+
+/* Carousel Header Styles */
+.introducao .header-text {
+    position: absolute;
+    top: 20%;
+    left: 1.8%;
+    right: auto;
+    width: 96.66666666666666%;
+    color: #fff;
+    padding-top: -50px;
+}
+
+
+.header-text h1 span {
+    background-color: #2980b9;
+	padding: -5px 40px 5px;
+	font-size: 40px;
+}
+
+.header-text h2 span {
+	background-color: #000;
+	padding: -5px 20px 10px;
+	margin-top: 70px;
+}
+
+.header-text h3 span {
+	background-color: ;
+	padding: 5px 30px 10px;
+	margin-top: 70px;
+	text-shadow: 0.1em 0.1em #000;
+}
+
+
+.header-text h4 span {
+	text-decoration-color: white;
+	padding-bottom: 50px;
+	text-shadow: 0.1em 0.1em #000;
+}
+
+/* Introdução */
+
+.introducao {
+	width: 100%;
+	height: 500px;
+	background: url("../imagem/topglassvitrine5.jpeg") no-repeat center;
+	background-size: cover;
+	margin-top: 20px;
+	text-align: center;
+	padding-top: 70px;
+}
+
+
+.header-text .btn a{
+	margin-top: 100px;
+	background-size: white;
+	text-align: center;
+	padding-top: 80px;
+	background-color: #2980b9;
+}
+
+
+
+
+
+/* Sobre */
+
+.sobre{
+	padding: 80px 10px 60px;
+
+}
+
+.sobre p{
+	
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: bold;
+	letter-spacing: .1em;
+	color: black;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 40px;
+
+
+}
+
+.sobre img{
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 80px;
+	margin-top: 40px;
+}
+
+
+/*Serviços*/
+
+.servicos{
+	padding: 80px 0;
+	background: black;
+
+	
+}
+
+.produtos_lista li{
+	background: #6699ff;
+	text-align: center;
+	list-style-type: none;
+	margin-right:  50px;
+	display: block;
+	margin-bottom: 50px;
+
+
+}
+
+.produtos_lista img{
+	margin: 0 auto;
+	width: 120px;
+	height: 120px;
+
+}
+
+
+.produtos_lista li h3:after{
+	content: "";
+	display: block;
+	width: 50px;
+	height: 5px;
+	background: #000;
+	margin: 2px auto;
+	margin-left: 100px;
+}
+
+.produtos_lista li p {
+	padding: 10px 20px 20px 20px;
+	
+}
+
+.produtos_icone {
+	background: white;
+	padding: 10px;
+	
+
+}
+
+.produtos_icone img{
+	border: 0px solid;
+}
+
+.call {
+	padding-top: 40px;
+	text-align: center;
+	clear: both;
+}
+
+.call p{
+	margin-bottom: 20px;
+}
+
+/*Clientes*/
+
+.clientes{
+	padding: 80px 0;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	
+}
+.clientes .row img{
+	margin: 0 auto;
+	width: 180px;
+	height: 150px;	
+	margin-right:  60px;
+	display: block;
+	margin-bottom: 40px;
+	
+
+}
+
+/* Rodapé */
+
+ footer .glyphicon {
+      font-size: 20px;
+      margin-bottom: 20px;
+      color: white;
+  }
+
+
+ footer img{
+ 	margin: 0 auto;
+
+
+ }
+
+ footer  {
+ 	background: #6699ff;
+ 	margin-top: -40px;
+ }
+
+ footer a{
+ 	color: white;
+ }
+
+ footer p{
+ 	color: black;
+ }
+
+ /*Formulário */
+
+ .row .btn {
+ 	background: #6699ff;
+ 	border-color: white;
+ 	margin: 4px;
+ }
+
+.row .btn:hover {
+	color: white;
+	border-color: white;
+}
+
+
+.contato {
+	padding: 50px 0;
+	background: #e6e6e6;
+}
+
+/*animações */
+
+.js .introducao h1, .js , .js .introducao .btn, .js .animar, .js .animar-interno, .js .introducao-interna h1, .js .introducao-interna p {
+	opacity: 0;
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -20px, 0);
+            transform: translate3d(0, -20px, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -20px, 0);
+            transform: translate3d(0, -20px, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+          animation-name: fadeInDown;
+}
+
+
+
