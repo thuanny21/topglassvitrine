@@ -3,7 +3,7 @@
 // Aqui ficam os dados do seu e-mail e da autoresposta!!!
 
 $assunto = "Contato Site"; //Assunto do e-mail q vai chegar na sua caixa de mensagem
-$mail = "thucatm@gmail.com"; //E-mail que você gostaria de receber os resultados dos formmail's
+$mail = "topglassvitrine@gmail.com"; //E-mail que você gostaria de receber os resultados dos formmail's
 $assunto_auto = "$nome, Sua Mensagem Foi Recebida Com Sucesso!";//Assunto da Auto Resposta
 $website =  "http://www.topglassvitrine.com/";//Url do Website
 $nome_webmaster = "Top Glass Vitrine";//Nome do Webmaster do site
